@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   body {
+    font-family: Arial, sans-serif;
+    color: #444;
+    background: rgb(247, 217, 222);
+  }
+   .parallax {
+    height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+  }
+   .cat {
+    background-image: url("IMG_7995.jpeg") ;
+    background-size: contain;
+  }
+   .cat2 {
+    background-image: url("IMG_8037.JPG");
+    background-size: contain;
+  }
+
+   .content {
+    min-height: 30vh;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     text-align: center;
+     padding: 60px;
+    background: #fffaf8;
+  }
+   .card {
+    background: rgba(255, 255, 255, 0.75);
+     padding: 40px;
+     border-radius: 16px;
+     backdrop-filter: blur(6px);
+     max-width: 500px;
+  }
+   p {
+    line-height: 1.6;
+  }
+ 
+ 
